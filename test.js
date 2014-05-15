@@ -13,6 +13,7 @@ describe('Neo4j database', function () {
     db.getIndexedNodes('node_auto_index', 'name', 'test', function (nodes) {
       expect(nodes).to.be.an('array');
       expect(nodes.length).to.equal(1);
+      expect(nodes[0].name).to.equal('test');
     });
   });
 });
