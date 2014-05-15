@@ -1,0 +1,28 @@
+{
+  "name": "sample_node_neo4j",
+  "version": "0.0.0",
+  "description": "Testing Neo4j service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui=bdd --reporter=spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Shippable/sample_node_neo4j.git"
+  },
+  "author": "Tim Lebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shippable/sample_node_neo4j/issues"
+  },
+  "homepage": "https://github.com/Shippable/sample_node_neo4j",
+  "dependencies": {
+    "chai": "^1.9.1",
+    "neo4j": "^1.1.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.2.9",
+    "mocha": "^1.18.2",
+    "xunit-file": "0.0.5"
+  }
+}
