@@ -7,7 +7,7 @@ node_js:
   
 env:
  global:
-  - secure: B2faxVywhkpyPIrpJqhIPLi39VZU0VFCaFY1OTBgmEgREgjD6K3xIZgyScThn+X0HqeVX2gjD8POzqYc5ry0LByDPnt4IF95zfY9Gl/3v6KB6HknUIwGaeevXCBBkGJ8VCLGSxW0v0QSw+TFNF5s31a+ujKSrlfriEsp4tLsC46dNkGzIQvY8VGk4XJG+rbRqqXrmSoXQSOQlJa2MidY7tbGP+gnDmBRJBRkNQTDNXQx/eRIsI4NRqFu5ihAhF2G1SPov3LpcnT/S+ywXTgZsDBP8Xxj/I6M+FWlRfLqNMtx8A0NnhhL/bg+0+ky8tyTSmEoXX86/gCeLNtY0fCx1Q==
+  - secure: gheV0aNDpW1AtddgMkGil63lccUkLGBxbthnS6dKmWnolSyXI7+4aFvj6EZRJPT2D8jHHuRYqsKYBTwL2lFurXx+G+ITVN2OqXZZqF/u5hmCOsswBYeFRo98gckPI4trE6QPS0+7zuTFwdPQjRvUmTu4abABffQIfUfdqh6ovsGjIX6/EnRzP9Is5OMkizrpAZvfgj7CmCeWVgYJs0itEIF9GiHQw01i0skmpyOBLrfWAYA3XNIIhYIaOMwwapEdZEf7E+rDSs5Q9YoIakb5nKgS+W+36GHs9odvjzVsfI/bRge/JHJdMtO9YRjHAXlNNqLfqES2znWiO0kob14bAQ==
   
 #neo4j runs on default port 7474
 services:
@@ -25,7 +25,7 @@ before_script:
 # Running the tests with grunt
 script:
   - npm test
-  - echo $key
+  - echo $foo
 
 # Tell istanbul to generate a coverage report
 after_script:
