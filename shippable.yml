@@ -7,7 +7,8 @@ node_js:
   
 env:
  global:
-  - secure: GLuNLWsOfZzfev1gudDmFsZigzCXFsOy4nGMuuVw4denBTOpQ6b4EM5gxNAXOfbGpHg/dybTbOWQHCWE+qDMaxtZyywqkL9gjb8MCbko7sfNDaRV9LRAEEGEa93JR5fXz7lzD565H9UJ5kcSHahwxkQvwhDYdkb0LkgViFeGquPIX/pV/t1hVCtUgsDvk3QwuFUpiYFaJbgP3bKx6BMMdbtbxgIa3HqGNFaYQ2kLAqY/FUDR39Rn2b69Z8+zElPxUOla/q2oJIciRlVPxO1hixV//lgysrI7kRGl7fRtiRPSrlhT01vPrRYfb9nq9aWhRGW9D8zLe2rTP02ouvYNbA==
+  - secure: R41UtmiGTeD9PoRQcxBeFKn+z2ucDl+711nA/mjmb23KmETysExxeHhKS2QTLsfSnCX5jkguEbMIlER+sjvatjMtbKakuR1R8U3NQeCU6GOdVoLWoMonCdBetOhzsyGvkOO7nhCMlZPr6iFcva/NZ0MFRUI35q3EFhhUtl8VyTKbTRFvGoJ5UPkw7NUMs5BBbGG7bXGjX63KchSUV4A5le46mNyLQI5y2md1xXr8Zh1DqEwyEXW16Dn7oHFdxoCWXUiDSoej8xh1NOTin5a+4xFP5ipmB0WVabTgpnZ+egaK0pzDZRKiJLew/DS2L1MqQ73/JV6jkribMWZxCtMj4A==
+  #- secure: GLuNLWsOfZzfev1gudDmFsZigzCXFsOy4nGMuuVw4denBTOpQ6b4EM5gxNAXOfbGpHg/dybTbOWQHCWE+qDMaxtZyywqkL9gjb8MCbko7sfNDaRV9LRAEEGEa93JR5fXz7lzD565H9UJ5kcSHahwxkQvwhDYdkb0LkgViFeGquPIX/pV/t1hVCtUgsDvk3QwuFUpiYFaJbgP3bKx6BMMdbtbxgIa3HqGNFaYQ2kLAqY/FUDR39Rn2b69Z8+zElPxUOla/q2oJIciRlVPxO1hixV//lgysrI7kRGl7fRtiRPSrlhT01vPrRYfb9nq9aWhRGW9D8zLe2rTP02ouvYNbA==
   
 #neo4j runs on default port 7474
 services:
@@ -25,7 +26,7 @@ before_script:
 # Running the tests with grunt
 script:
   - npm test
-  - echo $fooo
+  - echo $foo
 
 # Tell istanbul to generate a coverage report
 after_script:
