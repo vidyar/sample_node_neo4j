@@ -13,6 +13,7 @@ services:
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
+  - secure: avzHKWEiOtuKAHOzlWDVwlX51x13EbfLkERuxNw4TnTIhfoqOKweYgxxOSaeKmKYrQYXnuRiQ3ed5oG6SbOmGIJwp73jpWHpoxDqnyGjcUJCmYDQMU35whEZEjhfEvazR9fgfzzVsA0JOmRFBy8aItfvz10tuUJYfg7q4znA2VSdP6NCPruW8ZEKLOalaa4JS02UsQbkFMUO1Ryc7abwyaBdaiogQM5RJrNMV+UY5+owfLYWL7RFGBcaf5q8hlqVjqIVn8mCU7rukqSRqDNK/bVdLKC2v1FNm5ITuVCiIEfhweZPzohUWUe270hwn3G8A+LsTrn8JzvIButa/9bk5A==
 
 # Create directories for test and coverage reports
 before_script:
@@ -22,6 +23,7 @@ before_script:
 # Running the tests with grunt
 script:
   - npm test
+  - echo $foo
 
 # Tell istanbul to generate a coverage report
 after_script:
