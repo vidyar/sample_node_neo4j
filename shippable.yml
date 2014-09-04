@@ -13,6 +13,7 @@ services:
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
+  - Foo=bar
  
 # Create directories for test and coverage reports
 before_script:
@@ -22,6 +23,7 @@ before_script:
 # Running the tests with grunt
 script:
   - npm test
+  - echo $Foo
  
 
 # Tell istanbul to generate a coverage report
