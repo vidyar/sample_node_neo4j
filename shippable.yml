@@ -16,6 +16,8 @@ env:
   - XUNIT_FILE=shippable/testresults/result.xml
   - Foo='bar-11'
   - name='project/test'
+  - month= 09
+  - year= 2014
  
 # Create directories for test and coverage reports
 before_script:
@@ -27,6 +29,7 @@ script:
   - npm test
   - echo $Foo
   - echo $name
+  - echo $month + $year
  
 
 # Tell istanbul to generate a coverage report
