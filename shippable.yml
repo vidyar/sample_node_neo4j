@@ -12,6 +12,7 @@ services:
 
 # The path for Xunit to output test reports
 env:
+ global:
   - XUNIT_FILE=shippable/testresults/result.xml
   - Foo=bar
  
