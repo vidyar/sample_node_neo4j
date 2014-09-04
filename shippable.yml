@@ -14,7 +14,7 @@ services:
 env:
  global:
   - XUNIT_FILE=shippable/testresults/result.xml
-  - Foo='bar'
+  - Foo='bar-11'
  
 # Create directories for test and coverage reports
 before_script:
