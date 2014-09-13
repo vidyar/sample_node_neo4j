@@ -14,10 +14,7 @@ services:
 env:
  global:
   - XUNIT_FILE=shippable/testresults/result.xml
-  - Foo='bar-11'
-  - name='project/test'
-  - month= 09
-  - year= 2014
+archive: true
  
 # Create directories for test and coverage reports
 before_script:
@@ -27,9 +24,6 @@ before_script:
 # Running the tests with grunt
 script:
   - npm test
-  - echo $Foo
-  - echo $name
-  - echo $month + $year
  
 
 # Tell istanbul to generate a coverage report
