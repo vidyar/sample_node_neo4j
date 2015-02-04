@@ -25,6 +25,7 @@ before_script:
 script:
   - npm test
  
+build_image: shippable/minv2
 
 # Tell istanbul to generate a coverage report
 after_script:
