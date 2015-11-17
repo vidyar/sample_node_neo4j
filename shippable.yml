@@ -13,8 +13,8 @@ services:
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
-  - secure: nuCu+DkbXFQfIOAlbBot/I1QOJ/SHwArk8KsHoX2TyuKjuE4rEBFh6yv5egheZI7QeinN4+OuS6XbHDZph7vfiYJHv9aS3XNSmTZvuc7YAfyHV3UxuWTHH4JW/xVmdQ+tzQLUUF3K4vibv47m0BJWlunzcds7TipHaIBsQR54fR08utNoDDS1E6nytjq0yn8ySPvUtpOaysCj+gvYLPr6wiY/+Y/Qs49+clL6mvpAEGQ1XIB+eKNqpqArDuhTG6Ti+uiHWjU1Bbu5KpHTVu5RCqbfNf5RzZuPjiNk+r4kgAztwZC5YnH6cMv7pdz87dbe62Tz7vvwDajA/yAbWX6tg==
- 
+  - secure: CzsymtY5SO6lKfdmYX9YvGv0DX4rX9t6LzkkMFGvTG5xwK7YNH2VB858h63iiYR5csC0Kj8Q5TPLN4QU1RBS75xW+x93qzQmiRW4ezUWxUFucIihtvWzTN/88yvoYpc9isJ10XV2m1TRjJmciNvdR+SO/Ye/3O4erdWRE4z2vS2vMjdmmkCs/lZ6yyO/WEYOTJ+eUHOw8Ub3gc9UvLRwMpW7Dq3BO30PGIpWTkiwwMS+ExkgarjQsxf+dmCczxKfPpZJ53Vo3tozn1hztXMeMvTm735qKoY+Jg68Z5WVR6XuN03nAIuVnd1AIcuwjRB4UiznkTIbDxeFbk6B8Vs8Lw==
+  
 # Create directories for test and coverage reports
 before_script:
   - mkdir -p shippable/testresults
